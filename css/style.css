@@ -1,0 +1,221 @@
+html{
+scroll-behavior:smooth;
+}
+
+body{
+    margin:0;
+    font-family:'Inter',sans-serif;
+    background:#0B1F33;
+    color:white;
+    line-height:1.6;
+    overflow-x:hidden;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 80px;
+position:sticky;
+top:0;
+background:#0B1F33;
+z-index:100;
+box-shadow:0 4px 20px rgba(0,0,0,.3);
+}
+
+.logo{
+font-size:34px;
+font-weight:bold;
+letter-spacing:2px;
+color:#C59D5F;
+}
+
+/* ==========================
+   Desktop Navigation
+========================== */
+
+/* ==========================================
+   DESKTOP NAVIGATION
+========================================== */
+
+/* Hide the hamburger menu on desktop */
+.hamburger{
+    display:none;
+    background:none;
+    border:none;
+    cursor:pointer;
+    padding:0;
+}
+
+/* Primary navigation menu */
+.nav-menu{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    gap:40px;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+/* Navigation links */
+.nav-menu a{
+    display:block;
+    padding:10px 0;
+    color:white;
+    text-decoration:none;
+    font-weight:500;
+    transition:color .3s ease;
+}
+
+/* Navigation hover effect */
+.nav-menu a:hover{
+    color:#C59D5F;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:0 40px;
+background:linear-gradient(#0B1F33,#132B44);
+}
+
+h1{
+font-size:72px;
+line-height:1.2;
+max-width:1100px;
+margin:0 auto;
+text-align:center;
+}
+
+
+.hero-description{
+font-size:24px;
+max-width:900px;
+line-height:1.8;
+margin-top:30px;
+}
+
+.cta-button{
+display:block;
+width:fit-content;
+margin:40px auto 0 auto;
+padding:18px 40px;
+background:#C59D5F;
+color:#0B1F33;
+font-size:20px;
+font-weight:600;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,.3);
+transition:.3s;
+text-align:center;
+}
+
+
+.cta-button:hover{
+background:white;
+color:#0B1F33;
+transform:translateY(-3px);
+}
+
+.tagline{
+margin-top:60px;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.tagline span{
+padding:10px 18px;
+border:1px solid rgba(255,255,255,.15);
+border-radius:30px;
+color:#cccccc;
+font-size:15px;
+}
+
+section{
+padding:100px 80px;
+border-top:1px solid rgba(255,255,255,.08);
+}
+
+h2{
+font-size:48px;
+color:#C59D5F;
+text-align:center;
+margin-bottom:50px;
+}
+
+section p{
+font-size:20px;
+max-width:900px;
+margin:auto;
+text-align:center;
+}
+
+.stats-container{
+display:flex;
+justify-content:center;
+gap:80px;
+flex-wrap:wrap;
+}
+
+.stat{
+text-align:center;
+}
+
+.stat h2{
+font-size:60px;
+margin-bottom:10px;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+margin-top:60px;
+}
+
+.card{
+background:#132B44;
+padding:40px;
+width:300px;
+border-radius:16px;
+border-top:4px solid #C59D5F;
+box-shadow:0 10px 30px rgba(0,0,0,.3);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+color:#C59D5F;
+}
+
+a{
+color:#C59D5F;
+text-decoration:none;
+}
+
+a:hover{
+color:white;
+}
+
+footer{
+background:#081521;
+padding:60px;
+text-align:center;
+margin-top:80px;
+}
+
+footer p{
+color:#cccccc;
+}
+

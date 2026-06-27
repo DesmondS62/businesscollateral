@@ -1,0 +1,180 @@
+/* ==========================================
+   RESPONSIVE.CSS
+   Business Collateral
+========================================== */
+
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media screen and (max-width:1024px){
+
+    nav{
+        padding:20px 40px;
+    }
+
+    section{
+        padding:80px 40px;
+    }
+
+    h1{
+        font-size:56px;
+    }
+
+    .hero-description{
+        font-size:22px;
+    }
+
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media screen and (max-width:768px){
+
+    /* ---------- Navigation ---------- */
+
+    nav{
+        position:relative;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding:20px;
+        flex-wrap:wrap;
+    }
+
+    .logo{
+        font-size:24px;
+        margin:0;
+    }
+
+
+    .hamburger{
+        display:block;
+        background:none;
+        border:none;
+        cursor:pointer;
+        padding:0;
+    }
+
+    .hamburger svg{
+        width:32px;
+        height:32px;
+    }
+
+    .nav-menu{
+        display:none;
+        flex-direction:column;
+        width:100%;
+        margin-top:20px;
+        padding:0;
+        list-style:none;
+        gap:0;
+    }
+
+    .nav-menu.active{
+        display:flex;
+    }
+
+    .nav-menu li{
+        width:100%;
+    }
+
+    .nav-menu a{
+        display:block;
+        text-align:center;
+        padding:16px;
+        border-bottom:1px solid rgba(255,255,255,.08);
+    }
+
+    /* ---------- Hero ---------- */
+
+    .hero{
+        height:auto;
+        min-height:auto;
+        padding:60px 20px;
+    }
+
+    h1{
+        font-size:38px;
+        line-height:1.2;
+        max-width:100%;
+    }
+
+    .hero-description{
+        font-size:18px;
+        margin:25px auto;
+        max-width:100%;
+    }
+
+    .cta-button{
+        display:block;
+        width:fit-content;
+        margin:30px auto;
+        padding:16px 28px;
+    }
+
+    .tagline{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:10px;
+        margin-top:30px;
+    }
+
+    .tagline span{
+        font-size:13px;
+        padding:8px 12px;
+    }
+
+    /* ---------- Statistics ---------- */
+
+    .stats-container{
+        display:flex;
+        flex-direction:column;
+        gap:35px;
+    }
+
+    .stat h2{
+        font-size:46px;
+    }
+
+    /* ---------- Sections ---------- */
+
+    section{
+        padding:60px 20px;
+    }
+
+    h2{
+        font-size:34px;
+    }
+
+    section p{
+        font-size:18px;
+    }
+
+    /* ---------- Cards ---------- */
+
+    .cards{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:25px;
+    }
+
+    .card{
+        width:100%;
+        max-width:340px;
+        box-sizing:border-box;
+    }
+
+    /* ---------- Footer ---------- */
+
+    footer{
+        padding:40px 20px;
+    }
+
+}
